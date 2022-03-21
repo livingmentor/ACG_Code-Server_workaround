@@ -1,5 +1,7 @@
 # ACG_Code-Server_workaround
 
+
+```
 curl -fsSL https://code-server.dev/install.sh | sh
 
 sudo systemctl enable --now code-server@$USER
@@ -40,3 +42,4 @@ pyenv install 3.7.6
 
 pyenv shell 3.7.6
 pip3.7 install --upgrade pip
+```
