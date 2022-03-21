@@ -1,6 +1,6 @@
 # ACG_Code-Server_workaround
 
-
+## install & configure code-server
 ```
 curl -fsSL https://code-server.dev/install.sh | sh
 
@@ -21,8 +21,10 @@ echo 'user-data-dir: /home/cloud_user/.local/share/code-server-user-data' >> ~/.
 echo 'password: CHANGE_THIS_PASSWORD' >> ~/.config/code-server/config.yaml
 
 sudo systemctl restart code-server@$USER
+```
 
-
+##Install and Configure pyenv
+```
 sudo yum install -y --skip-broken git gcc zlib-devel readline-devel sqlite-devel bzip2-devel
 
 git clone https://github.com/pyenv/pyenv.git ~/.pyenv
